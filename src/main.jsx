@@ -10,7 +10,7 @@ import { Photos } from './pages/Photos/Photos'
 const router = createBrowserRouter([
   {
     path: "/react-guy-project/",
-    element: <Home/>
+    element: <Memories/>
   },
   {
     path: "/react-guy-project/memories",
