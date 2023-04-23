@@ -1,0 +1,6 @@
+.monthsContainer {
+    display: flex;
+    flex-direction: column;
+    /* padding-bottom: 15rem; */
+    font-weight: 600;
+}
