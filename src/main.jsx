@@ -9,11 +9,11 @@ import { Photos } from './pages/Photos/Photos'
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/react-guy-project/",
     element: <Home/>
   },
   {
-    path: "/memories",
+    path: "/react-guy-project/memories",
     element: <Memories/>
   },
   {
