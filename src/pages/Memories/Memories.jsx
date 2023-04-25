@@ -7,7 +7,7 @@ import {
 export const Memories = (props) => {
 	const April = {month:"April 2022", days:[
 		{}, {}, {}, {}, {}, {day: 1}, {day: 2},
-		{day: 3}, {day: 4}, {day: 5}, {day: 6}, {day: 7}, {day: 8}, {day: 9, pic: ['https://github.com/guymelamed2109/react-guy-project/july-22.1.jpg']},
+		{day: 3}, {day: 4}, {day: 5}, {day: 6}, {day: 7}, {day: 8}, {day: 9, pic: ['https://guymelamed2109.github.io/react-guy-project/july-22.1.jpg']},
 		{day: 10}, {day: 11}, {day: 12}, {day: 13}, {day: 14}, {day: 15}, {day: 16},
 		{day: 17}, {day: 18}, {day: 19}, {day: 20}, {day: 21}, {day: 22}, {day: 23},
 		{day: 24}, {day: 25}, {day: 26}, {day: 27}, {day: 28}, {day: 29}, {day: 30, pic: ['/src/assets/images/april-30.jpg'], sentence: "שבת ראשונה ביחד"}]}
