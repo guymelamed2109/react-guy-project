@@ -30,7 +30,7 @@ export const Memories = (props) => {
 		{}, {}, {}, {}, {}, {day: 1}, {day: 2},
 		{day: 3}, {day: 4}, {day: 5}, {day: 6}, {day: 7}, {day: 8}, {day: 9},
 		{day: 10}, {day: 11}, {day: 12}, {day: 13}, {day: 14, pic: ['../../src/assets/images/july-14.1.JPEG', '../../src/assets/images/july-14.2.JPEG']}, {day: 15}, {day: 16},
-		{day: 17}, {day: 18}, {day: 19}, {day: 20}, {day: 21}, {day: 22, pic: ['https://github.com/guymelamed2109/react-guy-project/blob/main/src/assets/images/july-22.1.jpg', '../../src/assets/images/july-22.2.jpg']}, {day: 23},
+		{day: 17}, {day: 18}, {day: 19}, {day: 20}, {day: 21}, {day: 22, pic: ['http://cors.io/https://github.com/guymelamed2109/react-guy-project/blob/main/src/assets/images/july-22.1.jpg', '../../src/assets/images/july-22.2.jpg']}, {day: 23},
 		{day: 24}, {day: 25}, {day: 26}, {day: 27, pic: ['../../src/assets/images/july-27.JPG']}, {day: 28}, {day: 29, pic: ['../../src/assets/images/july-29.JPEG']}, {day: 30, pic: ['../../src/assets/images/july-30.JPEG']},
 		{day: 31}, {}, {}, {}, {}, {}, {}]}
 
