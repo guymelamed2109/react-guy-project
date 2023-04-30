@@ -1,8 +1,11 @@
-import '../Memories/memories.css'
+// import '../Memories/memories.css'
 
 import {
 	Month
 } from '../../components/Month'
+import {Navbar} from '../../components/Navbar'
+import '../../components/Navbar/navbar.css'
+
 
 export const Memories = (props) => {
 	const April = {month:"April 2022", days:[
@@ -102,7 +105,7 @@ export const Memories = (props) => {
 	
 
 	return (
-		<div className='monthsContainer'> 
+		<div className='monthsContainer'>
 			{monthsObjects} </div>
 
 		

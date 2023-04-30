@@ -1,0 +1,33 @@
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    font-family: "Lato", sans-serif;
+    margin-bottom: 5px;
+    /* background-color: #dae5f3; */
+}
+
+.left-side {
+    display: flex;
+}
+
+.nav-wrapper > .left-side > div {
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    
+}
+
+.nav-link-wrapper {
+    height: 22px;
+    border-bottom: 1px solid transparent; 
+    transition: border-bottom 0.5s;
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper:focus {
+    border-bottom: 1px solid black;
+    color: black !important;
+}

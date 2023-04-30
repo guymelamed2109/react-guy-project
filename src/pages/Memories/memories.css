@@ -3,4 +3,11 @@
     flex-direction: column;
     /* padding-bottom: 15rem; */
     font-weight: 600;
+    margin-bottom: 15rem;
 }
+
+a {
+    font-weight: 400;
+    /* font-family: ; */
+}
+
