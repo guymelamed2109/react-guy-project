@@ -19,9 +19,13 @@ export const Photos = (props) => {
 	return (
 		<div className="the-whole-page">
 
-			<Carousel className="carouselContainer" autoplay>
+			<Carousel className="carouselContainer" autoplay> 
 				{imgObj}
 			</Carousel>
+
+			<Carousel arrows={true} ></Carousel>
+
+		<div className="sentences">
 
 			<h2 className="date">
 				{month} {state.days.day}, {year}
@@ -30,6 +34,9 @@ export const Photos = (props) => {
 			<h3 className="sentence">
 				{sentence}
 			</h3>
+
+		</div>
+			
 			
 		</div>
 		);
