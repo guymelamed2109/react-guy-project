@@ -16,6 +16,7 @@ export const Home = (props) => {
 	})
 
 	const photos_array = photos_array_arrays.flat(1)
+	photos_array.sort(() => Math.random() -0.5)
 console.log(photos_array);
 	
 	const imgObj = photos_array.map(pic => <img src={pic}/>)
