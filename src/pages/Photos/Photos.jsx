@@ -6,14 +6,17 @@ export const Photos = (props) => {
 	const { state } = useLocation();
 	const pics = state.days.pic;
 
+	console.log(pics)
+
 	const [month, year] = state.month.split(' ')
 	const sentence = state.days.sentence
 	// const [sentence] = state.sentence
-	console.log(sentence)
+	// console.log(sentence)
 	
 
 
 	const imgObj = pics.map(pic => <img src={pic}/>)
+	// console.log(imgObj)
 
 
 	return (

@@ -8,6 +8,7 @@ export const Day = (props) => {
 	if (props.day.pic) {
 		photos = props.day.pic
 	}
+
 	const goToPhotos = () => {
 		navigate("/memories/photos", {state:{days:props.day, month:props.month}})
 	}

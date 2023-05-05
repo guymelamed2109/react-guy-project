@@ -1,8 +1,6 @@
 // import '../Memories/memories.css'
 
-import {
-	Month
-} from '../../components/Month'
+import {Month} from '../../components/Month'
 import {Navbar} from '../../components/Navbar'
 import '../../components/Navbar/navbar.css'
 
@@ -96,18 +94,52 @@ export const Memories = (props) => {
 		{day: 5}, {day: 6}, {day: 7}, {day: 8}, {day: 9}, {day: 10, pic:['https://guymelamed2109.github.io/react-guy-project/images/march-10.1.JPEG', 'https://guymelamed2109.github.io/react-guy-project/images/march-10.2.JPEG', 'https://guymelamed2109.github.io/react-guy-project/images/march-10.3.JPEG', 'https://guymelamed2109.github.io/react-guy-project/images/march-10.4.JPEG', 'https://guymelamed2109.github.io/react-guy-project/images/march-10.5.JPEG']}, {day: 11, pic:['https://guymelamed2109.github.io/react-guy-project/images/march-11.JPEG']},
 		{day: 12}, {day: 13}, {day: 14}, {day: 15}, {day: 16}, {day: 17}, {day: 18},
 		{day: 19}, {day: 20}, {day: 21}, {day: 22}, {day: 23}, {day: 24}, {day: 25},
-		{day: 26}, {day: 27}, {day: 28}, {day: 29}, {day: 30, pic:['https://guymelamed2109.github.io/react-guy-project/images/february-3.5.JPEG']}, {day: 31, pic:['https://guymelamed2109.github.io/react-guy-project/images/march-31.1.JPEG', 'https://guymelamed2109.github.io/react-guy-project/images/march-31.2.JPEG']}, {}]}
+		{day: 26}, {day: 27}, {day: 28}, {day: 29}, {day: 30}, {day: 31, pic:['https://guymelamed2109.github.io/react-guy-project/images/march-31.1.JPEG', 'https://guymelamed2109.github.io/react-guy-project/images/march-31.2.JPEG']}, {}]}
 
 	const months = [April, May, June, July, August, September, October, November, December, January, February, March]
 
 	const monthsObjects = months.map(month => <Month key={month.month} month={month}/>)
 	
-	
+	// months.forEach((month) => {
+	// 	let index = month.days; 
+	// 	// console.log(index);
+
+
+	// 	for (const [key, value] of Object.entries(index)) {
+	// 		let keys = key;
+	// 		console.log(keys)
+	// 	}
+		// console.log(index);
+
+		// let value = Object.entries(index)
+		// console.log(value[0]);
+		// value.forEach((values) => {
+		// 	let values = values;
+		// 	console
+		// })
+		// console.log(value);
+
+		
+
+		// let picture = Object.keys(index);
+		// console.log(picture);
+
+		// picture.forEach((pictures) => {
+		// 	let photo = pictures;
+		// 	console.log(photo);
+		// }
+		
+		// )
+		// console.log(picture);
+
+	// }
+	// )
+
+	// console.log(March.days.day);
 
 	return (
 		<div className='monthsContainer'>
 			{monthsObjects} </div>
 
-		
 	);
 };
