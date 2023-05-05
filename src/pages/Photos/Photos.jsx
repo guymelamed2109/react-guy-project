@@ -22,11 +22,10 @@ export const Photos = (props) => {
 	return (
 		<div className="the-whole-page">
 
-			<Carousel className="carouselContainer" autoplay> 
+			<Carousel className="carouselContainer" autoplay={false}> 
 				{imgObj}
 			</Carousel>
 
-			<Carousel arrows={true} ></Carousel>
 
 		<div className="sentences">
 
