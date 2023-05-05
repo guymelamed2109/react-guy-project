@@ -4,9 +4,22 @@ import '../Home/home.css'
 import {Carousel} from 'antd'
 
 export const Home = (props) => {
-	const photos_array = ['https://guymelamed2109.github.io/react-guy-project/images/november-10.1.JPEG', 'https://guymelamed2109.github.io/react-guy-project/images/november-10.2.JPEG', 'https://guymelamed2109.github.io/react-guy-project/images/november-10.3.JPEG', 'https://guymelamed2109.github.io/react-guy-project/images/november-10.4.JPEG', 'https://guymelamed2109.github.io/react-guy-project/images/november-10.5.JPEG', 'https://guymelamed2109.github.io/react-guy-project/images/november-11.1.JPEG', 'https://guymelamed2109.github.io/react-guy-project/images/november-11.2.JPEG', 'https://guymelamed2109.github.io/react-guy-project/images/november-11.3.JPEG', 'https://guymelamed2109.github.io/react-guy-project/images/november-11.4.JPEG', 'https://guymelamed2109.github.io/react-guy-project/images/november-11.5.JPEG', 'https://guymelamed2109.github.io/react-guy-project/images/november-11.6.JPEG', 'https://guymelamed2109.github.io/react-guy-project/images/november-11.7.JPEG', 'https://guymelamed2109.github.io/react-guy-project/images/november-11.8.JPEG', 'https://guymelamed2109.github.io/react-guy-project/images/november-11.9.JPEG', 'https://guymelamed2109.github.io/react-guy-project/images/november-11.10.JPEG', 'https://guymelamed2109.github.io/react-guy-project/images/november-12.1.JPEG', 'https://guymelamed2109.github.io/react-guy-project/images/november-12.2.JPEG', 'https://guymelamed2109.github.io/react-guy-project/images/november-12.3.JPEG', 'https://guymelamed2109.github.io/react-guy-project/images/november-12.4.JPEG', 'https://guymelamed2109.github.io/react-guy-project/images/november-12.5.JPEG']
+	const months = props.months
+	const months_day_array =months.map((month) => month.days)
+	const photos_array_arrays = []
+	months_day_array.forEach((month) => {
+		month.forEach((day) => {
+			if (day.pic) {
+				photos_array_arrays.push(day.pic)
+			}
+		})
+	})
+
+	const photos_array = photos_array_arrays.flat(1)
+console.log(photos_array);
+	
 	const imgObj = photos_array.map(pic => <img src={pic}/>)
-	console.log(imgObj);
+	// console.log(imgObj);
 
 
 // 	const navigate = useNavigate();
