@@ -1,18 +1,17 @@
 .paragraph {
     /* margin: 5px; */
     font-family: 'Fredoka', sans-serif;
-    font-size: 1.5em !important;
+    font-size: 1.2em !important;
     margin: 0;
     font-weight: 550;
     text-align: right;
     direction: rtl;
     padding: 10px;
 }
-
+/* 
 .homeContainer {
-    height: 200px !important;
-    width: 100% !important;
-    /* display: flex !important; */
+    height: 280px !important;
+    width: 350px !important;
     justify-content: center !important;
     align-items: center !important;
     margin: auto !important;
@@ -27,15 +26,14 @@ img{
     border: 6px white solid;
     border-radius: 10px;
     width: 100% !important;
-    object-fit: contain;
+    object-fit: contain !important;
     height: 100%;
-    max-height: 350px !important;
+    max-height: 280px !important;
     margin-bottom: 5px;
 }
 
 .slick-track{
     display: flex !important;
-    justify-content: center;
-    align-items: center;
-    /* height: 560px; */
-}
+    justify-content: center !important;
+    align-items: center !important;
+} */
