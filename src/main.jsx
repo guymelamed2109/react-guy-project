@@ -98,7 +98,13 @@ import { Photos } from './pages/Photos/Photos'
 		{day: 19}, {day: 20}, {day: 21}, {day: 22}, {day: 23}, {day: 24}, {day: 25},
 		{day: 26}, {day: 27}, {day: 28}, {day: 29}, {day: 30}, {day: 31, pic:['https://guymelamed2109.github.io/react-guy-project/images/march-31.1.JPEG', 'https://guymelamed2109.github.io/react-guy-project/images/march-31.2.JPEG']}, {}]}
 
-	const months = [April, May, June, July, August, September, October, November, December, January, February, March]
+    const April2 = {month:"April 2023", days:[
+      {}, {}, {}, {}, {}, {}, {day: 1}, {day: 2, pic: ['https://guymelamed2109.github.io/react-guy-project/images/april-2.jpg']},
+      {day: 3}, {day: 4}, {day: 5}, {day: 6}, {day: 7}, {day: 8}, {day: 9},
+      {day: 10}, {day: 11}, {day: 12}, {day: 13}, {day: 14}, {day: 15}, {day: 16},
+      {day: 17}, {day: 18}, {day: 19}, {day: 20}, {day: 21}, {day: 22}, {day: 23},
+      {day: 24}, {day: 25}, {day: 26}, {day: 27, pic: ['https://guymelamed2109.github.io/react-guy-project/images/april-27.1.jpeg', 'https://guymelamed2109.github.io/react-guy-project/images/april-27.2.jpeg'], sentence: "גיא עברה לבית החדש"}, {day: 28, pic: ['https://guymelamed2109.github.io/react-guy-project/images/april-8.jpeg']}, {day: 29}, {day: 30}]}  
+	const months = [April, May, June, July, August, September, October, November, December, January, February, March, April2]
   
 
 ReactDOM.createRoot(document.getElementById('root')).render(
