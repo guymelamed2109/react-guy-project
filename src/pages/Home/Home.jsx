@@ -24,7 +24,7 @@ export const Home = (props) => {
 
 
 	return (
-		<div className="the-whole-page"	>
+		<div className="the-whole-page"	style={{ backgroundImage: `url("https://guymelamed2109.github.io/react-guy-project/images/october-8.2.JPEG")`}}>
 	
 			<div className='paragraph'>
 				<p>היי :)</p>
@@ -35,7 +35,7 @@ export const Home = (props) => {
 
 			</div>
 
-			<div className="background-img"></div>
+			{/* <div className="background-img"></div> */}
 			{/* <Carousel className="homeContainer" autoplay dots={false} > 
 					{imgObj}
 				</Carousel> */}
