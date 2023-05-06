@@ -42,9 +42,9 @@ h1 {
     justify-content: center !important;
     align-items: center !important;
     box-sizing: border-box;
-    border: 6px #fcf8fc solid;
+    border: 6px white solid;
     border-radius: 15px;
-    width: 300px !important;
+    width: 350px !important;
     object-fit: cover;
     height: 100%;
     padding: 5px;
@@ -54,7 +54,7 @@ h1 {
     display: flex;
     justify-content: left !important;
     /* height: 100px;   */
-    width: 100px !important;
+    width: 90px !important;
     object-fit: cover;
         /* justify-content: center !important; */
     margin-left: 2px !important;
