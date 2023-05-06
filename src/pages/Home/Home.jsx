@@ -25,9 +25,9 @@ export const Home = (props) => {
 
 	return (
 		
-		<div className="the-whole-page"	>
+		<div className="the-whole-page"	style={{backgroundColor: "#fcf8fc"}}>
 			<div className='paragraph'>
-				<h1> היי :)</h1>
+				{/* <h1> היי :)</h1> */}
 		
 				<p>רציתי לסכם את כל החוויות שעברנו השנה וחשבתי שאין מקום טוב יותר לעשות את זה מהאינטרנט</p>
 				<p>לכן יצרתי עמוד בו מסוכם כל החוויות שצברנו השנה ביחד, 
@@ -40,7 +40,7 @@ export const Home = (props) => {
 		 	</div>
 		
 			<img src='https://guymelamed2109.github.io/react-guy-project/images/august-12.1.JPEG' className='main-image'></img>
-			<img src='https://guymelamed2109.github.io/react-guy-project/images/loveyou.gif' className='gif'></img>
+			<img src='https://guymelamed2109.github.io/react-guy-project/images/love.gif' className='gif'></img>
 
 	 	</div>
 	);
