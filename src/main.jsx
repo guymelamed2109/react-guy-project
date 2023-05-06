@@ -24,7 +24,7 @@ import { Photos } from './pages/Photos/Photos'
 
 	const June = {month:"June 2022", days:[
 		{}, {}, {}, {day: 1}, {day: 2}, {day: 3}, {day: 4},
-		{day: 5}, {day: 6}, {day: 7}, {day: 8}, {day: 9}, {day: 10, pic: ['https://guymelamed2109.github.io/react-guy-project/images/june-10.jpg'],}, {day: 11,  pic: ['https://guymelamed2109.github.io/react-guy-project/images/june-11.1.JPEG', 'https://guymelamed2109.github.io/react-guy-project/images/june11.2.JPEG'], sentence: "המקום הקבוע שלנו בשעות טש"},
+		{day: 5}, {day: 6}, {day: 7}, {day: 8}, {day: 9}, {day: 10, pic: ['https://guymelamed2109.github.io/react-guy-project/images/june-10.jpg'], sentence: "אס''ק"}, {day: 11,  pic: ['https://guymelamed2109.github.io/react-guy-project/images/june-11.1.JPEG', 'https://guymelamed2109.github.io/react-guy-project/images/june11.2.JPEG'], sentence: "המקום הקבוע שלנו בשעות טש"},
 		{day: 12}, {day: 13}, {day: 14}, {day: 15}, {day: 16}, {day: 17}, {day: 18},
 		{day: 19}, {day: 20}, {day: 21}, {day: 22}, {day: 23}, {day: 24}, {day: 25},
 		{day: 26}, {day: 27}, {day: 28}, {day: 29}, {day: 30}, {}, {}]}
@@ -32,28 +32,28 @@ import { Photos } from './pages/Photos/Photos'
 	const July = {month:"July 2022", days:[
 		{}, {}, {}, {}, {}, {day: 1}, {day: 2},
 		{day: 3}, {day: 4}, {day: 5}, {day: 6}, {day: 7}, {day: 8}, {day: 9},
-		{day: 10}, {day: 11}, {day: 12}, {day: 13}, {day: 14, pic: ['https://guymelamed2109.github.io/react-guy-project/images/july-14.1.JPEG', 'https://guymelamed2109.github.io/react-guy-project/images/july-14.2.JPEG']}, {day: 15}, {day: 16},
+		{day: 10}, {day: 11}, {day: 12}, {day: 13}, {day: 14, pic: ['https://guymelamed2109.github.io/react-guy-project/images/july-14.1.JPEG', 'https://guymelamed2109.github.io/react-guy-project/images/july-14.2.JPEG'], sentence: "אמריקנו חם, מים פושרים וקצפת במקום גלידה"}, {day: 15}, {day: 16},
 		{day: 17}, {day: 18}, {day: 19}, {day: 20}, {day: 21}, {day: 22, pic: ['https://guymelamed2109.github.io/react-guy-project/images/july-22.1.jpg', 'https://guymelamed2109.github.io/react-guy-project/images/july-22.2.jpg']}, {day: 23},
 		{day: 24}, {day: 25}, {day: 26}, {day: 27, pic: ['https://guymelamed2109.github.io/react-guy-project/images/july-27.JPG']}, {day: 28}, {day: 29, pic: ['https://guymelamed2109.github.io/react-guy-project/images/july-29.JPEG']}, {day: 30, pic: ['https://guymelamed2109.github.io/react-guy-project/images/july-30.JPEG']},
 		{day: 31}, {}, {}, {}, {}, {}, {}]}
 
 	const August = {month:"August 2022", days:[
 		{}, {day: 1}, {day: 2}, {day: 3}, {day: 4}, {day: 5}, {day: 6},
-		{day: 7}, {day: 8}, {day: 9, pic: ['https://guymelamed2109.github.io/react-guy-project/images/august-9.JPEG']}, {day: 10}, {day: 11}, {day: 12, pic: ['https://guymelamed2109.github.io/react-guy-project/images/august-12.1.JPEG', 'https://guymelamed2109.github.io/react-guy-project/images/august-12.2.JPEG', 'https://guymelamed2109.github.io/react-guy-project/images/august-12.3.JPEG'] }, {day: 13, pic: ['https://guymelamed2109.github.io/react-guy-project/images/august-13.1.JPEG', 'https://guymelamed2109.github.io/react-guy-project/images/august-13.2.JPEG']},
+		{day: 7}, {day: 8}, {day: 9, pic: ['https://guymelamed2109.github.io/react-guy-project/images/august-9.JPEG']}, {day: 10}, {day: 11}, {day: 12, pic: ['https://guymelamed2109.github.io/react-guy-project/images/august-12.1.JPEG', 'https://guymelamed2109.github.io/react-guy-project/images/august-12.2.JPEG', 'https://guymelamed2109.github.io/react-guy-project/images/august-12.3.JPEG'], sentence: "ט''ו באב" }, {day: 13, pic: ['https://guymelamed2109.github.io/react-guy-project/images/august-13.1.JPEG', 'https://guymelamed2109.github.io/react-guy-project/images/august-13.2.JPEG'], sentence: "יום הולדת למיכל"},
 		{day: 14}, {day: 15}, {day: 16}, {day: 17}, {day: 18}, {day: 19}, {day: 20},
-		{day: 21}, {day: 22}, {day: 23}, {day: 24, pic: ['https://guymelamed2109.github.io/react-guy-project/images/august-24.1.JPEG', 'https://guymelamed2109.github.io/react-guy-project/images/august-24.1.JPG']}, {day: 25, pic: ['https://guymelamed2109.github.io/react-guy-project/images/august-25.2.JPEG', 'https://guymelamed2109.github.io/react-guy-project/images/august-25.1.jpg']}, {day: 26}, {day: 27},
+		{day: 21}, {day: 22}, {day: 23}, {day: 24, pic: ['https://guymelamed2109.github.io/react-guy-project/images/august-24.1.JPEG', 'https://guymelamed2109.github.io/react-guy-project/images/august-24.1.JPG']}, {day: 25, pic: ['https://guymelamed2109.github.io/react-guy-project/images/august-25.2.JPEG', 'https://guymelamed2109.github.io/react-guy-project/images/august-25.1.jpg'], sentence: "אמריקנו קר חזק עם חלב שיבולת שועל בצד"}, {day: 26}, {day: 27},
 		{day: 28}, {day: 29}, {day: 30}, {day: 31}, {}, {}, {}]}
 
 	const September = {month:"September 2022", days:[
 		{}, {}, {}, {}, {day: 1, pic: ['https://guymelamed2109.github.io/react-guy-project/images/september-2.1.JPEG', 'https://guymelamed2109.github.io/react-guy-project/images/september-2.2.JPEG']}, {day: 2}, {day: 3},
 		{day: 4}, {day: 5}, {day: 6}, {day: 7}, {day: 8}, {day: 9}, {day: 10},
 		{day: 11}, {day: 12}, {day: 13}, {day: 14}, {day: 15}, {day: 16}, {day: 17},
-		{day: 18}, {day: 19}, {day: 20}, {day: 21}, {day: 22}, {day: 23, pic: ['https://guymelamed2109.github.io/react-guy-project/images/september-23.JPEG']}, {day: 24, pic: ['https://guymelamed2109.github.io/react-guy-project/images/september-24.1.JPEG', 'https://guymelamed2109.github.io/react-guy-project/images/september-24.2.JPEG', 'https://guymelamed2109.github.io/react-guy-project/images/september-24.3.JPEG']},
+		{day: 18}, {day: 19}, {day: 20}, {day: 21}, {day: 22}, {day: 23, pic: ['https://guymelamed2109.github.io/react-guy-project/images/september-23.JPEG']}, {day: 24, pic: ['https://guymelamed2109.github.io/react-guy-project/images/september-24.1.JPEG', 'https://guymelamed2109.github.io/react-guy-project/images/september-24.2.JPEG', 'https://guymelamed2109.github.io/react-guy-project/images/september-24.3.JPEG'], sentence: "חגיגות לגיא באיחור"},
 		{day: 25}, {day: 26}, {day: 27}, {day: 28}, {day: 29}, {day: 30}, {}]}
 
 	const October = {month:"October 2022", days:[
 		{}, {}, {}, {}, {}, {}, {day: 1},
-		{day: 2}, {day: 3}, {day: 4}, {day: 5}, {day: 6, pic: ['https://guymelamed2109.github.io/react-guy-project/images/october-6.JPG']}, {day: 7, pic: ['https://guymelamed2109.github.io/react-guy-project/images/october-7.1.jpg', 'https://guymelamed2109.github.io/react-guy-project/images/october-7.2.jpg',  'https://guymelamed2109.github.io/react-guy-project/images/october-7.1.JPEG', 'https://guymelamed2109.github.io/react-guy-project/images/october-7.2.JPEG']}, 
+		{day: 2}, {day: 3}, {day: 4}, {day: 5}, {day: 6, pic: ['https://guymelamed2109.github.io/react-guy-project/images/october-6.JPG']}, {day: 7, pic: ['https://guymelamed2109.github.io/react-guy-project/images/october-7.1.jpg', 'https://guymelamed2109.github.io/react-guy-project/images/october-7.2.jpg',  'https://guymelamed2109.github.io/react-guy-project/images/october-7.1.JPEG', 'https://guymelamed2109.github.io/react-guy-project/images/october-7.2.JPEG'], sentence: "בית ריק וארוחת ערב ביתית"}, 
 		{day: 8, pic: ['https://guymelamed2109.github.io/react-guy-project/images/october-8.1.JPEG', 'https://guymelamed2109.github.io/react-guy-project/images/october-8.2.JPEG']}, {day: 9}, {day: 10}, {day: 11}, {day: 12}, {day: 13}, {day: 14}, {day: 15},
 		{day: 16}, {day: 17}, {day: 18}, {day: 19, pic: ['https://guymelamed2109.github.io/react-guy-project/images/october-19.1.JPEG', 'https://guymelamed2109.github.io/react-guy-project/images/october-19.2.JPEG']}, {day: 20}, {day: 21}, {day: 22},
 		{day: 23}, {day: 24}, {day: 25}, {day: 26}, {day: 27}, {day: 28, pic: ['https://guymelamed2109.github.io/react-guy-project/images/october-28.1.JPEG', 'https://guymelamed2109.github.io/react-guy-project/images/october-28.2.JPEG', 'https://guymelamed2109.github.io/react-guy-project/images/october-28.3.JPEG']}, {day: 29},
