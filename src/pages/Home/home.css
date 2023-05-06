@@ -27,10 +27,10 @@
 .background-img {
     /* padding: 0 !important; */
     justify-content: center !important;
-    height: 800px;
-    background-image: url("https://guymelamed2109.github.io/react-guy-project/images/gandr-collage.jpg");
+    height: 800px; 
+    background-image: url("https://guymelamed2109.github.io/react-guy-project/images/phonto(3).PNG");
     background-size: contain;
-    opacity: 0.2;
+    /* opacity: 0.2; */
     overflow: hidden;
     filter: brightness(90%);
     display: flex;
