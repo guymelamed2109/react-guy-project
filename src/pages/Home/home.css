@@ -44,7 +44,7 @@ h1 {
     box-sizing: border-box;
     border: 6px white solid;
     border-radius: 15px;
-    width: 350px !important;
+    width: 360px !important;
     object-fit: cover;
     height: 100%;
     padding: 5px;
@@ -54,7 +54,7 @@ h1 {
     display: flex;
     justify-content: left !important;
     /* height: 100px;   */
-    width: 90px !important;
+    width: 80px !important;
     object-fit: cover;
         /* justify-content: center !important; */
     margin-left: 2px !important;
