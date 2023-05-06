@@ -41,7 +41,7 @@ export const Photos = (props) => {
 				{dot}
 			</h4> */}
 
-			<h3 className="sentence" style={sentence_lenght > 22 ? {fontSize: "1.15em"} : {fontSize: "1.3em"}}>
+			<h3 className="sentence" style={sentence_lenght > 22 ? {fontSize: "1.1em"} : {fontSize: "1.3em"}}>
 				{sentence}
 			</h3>
 
