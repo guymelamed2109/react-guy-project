@@ -24,23 +24,24 @@ export const Home = (props) => {
 
 
 	return (
+		
 		<div className="the-whole-page"	>
-		{/* // style={{ backgroundImage: `url("https://guymelamed2109.github.io/react-guy-project/images/gandr-collage.jpg")`} }> */}
 			<div className='paragraph'>
-				<p>היי</p>
+				<h1> היי :)</h1>
+		
 				<p>רציתי לסכם את כל החוויות שעברנו השנה וחשבתי שאין מקום טוב יותר לעשות את זה מהאינטרנט</p>
-				<p>לכן יצרתי עמוד בו מסוכם כל החוויות שצברנו השנה ביחד, אליו נוכל לגשת בכל זמן ומכל מקום</p>
-				<p>הייתה לנו שנה מטורפת, מצפה כבר לשנים הבאות!</p>
+				<p>לכן יצרתי עמוד בו מסוכם כל החוויות שצברנו השנה ביחד, 
+					{/* <br></br> */}
+					אליו נוכל לגשת בכל זמן ומכל מקום</p>
+				<p>הייתה לנו שנה מטורפת, 
+					<br></br>
+					מצפה כבר לשנים הבאות!</p>
 
+		 	</div>
+		
+			<img src='https://guymelamed2109.github.io/react-guy-project/images/august-12.1.JPEG' className='main-image'></img>
 
-			</div>
-
-			<div className="background-img"></div>
-			{/* <Carousel className="homeContainer" autoplay dots={false} > 
-					{imgObj}
-				</Carousel> */}
-
-			</div>
+	 	</div>
 	);
 
 	

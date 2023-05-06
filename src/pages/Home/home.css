@@ -1,46 +1,64 @@
 .paragraph {
-    /* margin: 5px; */
     font-size: 1.2em !important;
-    margin-right: 20px !important;
-    /* margin: 12px; */
     font-weight: 800;
     justify-content: center !important;
     display: flex;
     flex-direction: column;
     direction: rtl;
     padding: 10px;
-    position: absolute !important;
+    /* position: absolute !important; */
     color: black;
-    z-index: 1 !important;
-    /* width: 100%; */
+    /* z-index: 1 !important; */
 }
 
-.the-whole-page {
+/* .the-whole-page {
     width: 383px;
    
-}
+} */
 
  p {
+    margin-bottom: 2px;
     justify-content: center !important;
-    /* display: block !important; */
     font-family: 'Fredoka', sans-serif;
     background-color: white;
-    text-align: center;
+    text-align: right;
     width: fit-content;
     
 }
 
-.background-img {
+h1 {
+    margin-bottom: 2px;
+    justify-content: center !important;
+    font-family: 'Fredoka', sans-serif;
+    background-color: white;
+    text-align: center;
+    width: fit-content;
+    font-size: 1.1em !important;
+    
+}
+
+.main-image {
+    justify-content: center !important;
+    align-items: center !important;
+    /* box-sizing: border-box; */
+    border: 6px white solid;
+    border-radius: 15px;
+    width: 100% !important;
+    height: 100%;
+    padding: 5px;
+}
+
+/* .background-img {
     display: flex;
     justify-content: center !important;
     height: 800px;
     background-image: url("https://guymelamed2109.github.io/react-guy-project/images/gandr-collage.jpg");
     background-size: contain;
-    opacity: 0.2;
+    opacity: 0.5;
     width: 100%;
     
 
-}
+} */
 /* 
 .homeContainer {
     height: 280px !important;
