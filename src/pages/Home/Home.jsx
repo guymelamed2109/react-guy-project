@@ -40,7 +40,7 @@ export const Home = (props) => {
 		 	</div>
 		
 			<img src='https://guymelamed2109.github.io/react-guy-project/images/august-12.1.JPEG' className='main-image'></img>
-			<img src='https://guymelamed2109.github.io/react-guy-project/images/i-love-you-love.gif' className='gif'></img>
+			<img src='https://guymelamed2109.github.io/react-guy-project/images/loveyou.gif' className='gif'></img>
 
 	 	</div>
 	);
