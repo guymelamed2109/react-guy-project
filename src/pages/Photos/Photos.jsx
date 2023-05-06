@@ -24,7 +24,7 @@ export const Photos = (props) => {
 
 
 	return (
-		<div className="the-whole-page">
+		<div className="the-whole-page-1">
 
 			<Carousel className="carouselContainer" autoplay={false}> 
 				{imgObj}
