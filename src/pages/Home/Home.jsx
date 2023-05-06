@@ -23,28 +23,28 @@ console.log(photos_array);
 	// console.log(imgObj);
 
 
-// 	const navigate = useNavigate();
-// 	const Month 
-// 	props.days {
-// 		photos = props.day.pic
-// 	const month = props.month
-	
-// 	console.log(month);
-
-	// const { state } = useLocation();
-	// const pics = state.days.pic;
-	// // console.log(pics)
-	
-
-	// const imgObj = pics.map(pic => <img src={pic}/>)
-	// console.log(imgObj)
-
 	return (
-		<Carousel className="homeContainer" autoplay dots={false} > 
-				{imgObj}
-			</Carousel>
+		<div className="the-whole-page">
+			<h1 className='paragraph'>
+				<p
+				>היי :)
+				<br />
+				<p>רציתי לסכם את כל החוויות שעברנו השנה וחשבתי שאין מקום טוב יותר לעשות את זה מהאינטרנט</p>
+				
+				לכן יצרתי עמוד בו מסוכם כל החוויות שצברנו השנה ביחד,
+				<br />
+				 אליו נוכל לגשת בכל זמן ומכל מקום
+				<br />
+				<p>הייתה שנה מטורפת, מצפה כבר לשנים הבאות!</p>
+				 </p>
 
+			</h1>
+			<Carousel className="homeContainer" autoplay dots={false} > 
+					{imgObj}
+				</Carousel>
+
+			</div>
 	);
 
-
+	
 };
