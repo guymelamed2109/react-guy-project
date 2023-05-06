@@ -19,16 +19,16 @@
     height: 800px; 
     /* background-image: url("https://guymelamed2109.github.io/react-guy-project/images/phonto(3).PNG"); */
     background-size: contain;
-    opacity: 0.2;
+    /* opacity: 0.2; */
     overflow: hidden;
-    filter: brightness(90%);
+    /* filter: brightness(90%); */
     display: flex;
 }
  p {
     justify-content: center;
     display: block !important;
     font-family: 'Fredoka', sans-serif;
-    background-color: antiquewhite;
+    background-color: white;
     text-align: center;
     width: fit-content;
     

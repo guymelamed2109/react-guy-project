@@ -24,7 +24,7 @@ export const Home = (props) => {
 
 
 	return (
-		<div className="the-whole-page"	style={{ backgroundImage: `url("https://guymelamed2109.github.io/react-guy-project/images/gandr-collage1.jpg")`}}>
+		<div className="the-whole-page"	style={{ backgroundImage: `url("https://guymelamed2109.github.io/react-guy-project/images/Untitled-design.png")` } }>
 			<div className='paragraph'>
 				<p>היי :)</p>
 				<p>רציתי לסכם את כל החוויות שעברנו השנה וחשבתי שאין מקום טוב יותר לעשות את זה מהאינטרנט</p>
