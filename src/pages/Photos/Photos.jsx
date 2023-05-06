@@ -12,6 +12,11 @@ export const Photos = (props) => {
 	const sentence = state.days.sentence
 	// const [sentence] = state.sentence
 	// console.log(sentence)
+
+	let dot = "."
+	if (sentence) {
+		dot = dot
+	}
 	
 
 
@@ -32,6 +37,10 @@ export const Photos = (props) => {
 			<h2 className="date">
 				{month} {state.days.day}, {year}
 			</h2>
+
+			{/* <h4 className="dot">
+				{dot}
+			</h4> */}
 
 			<h3 className="sentence">
 				{sentence}

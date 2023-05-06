@@ -37,6 +37,7 @@
     font-family: "Roboto", sans-serif;
     background-color: rgb(250, 244, 236);
     padding: 5px;
+    
 }
 
 .date {
@@ -56,6 +57,14 @@
 
 }
 
+.dot {
+    color: rgb(16, 16, 16);
+    font-family: 'Fredoka', sans-serif;
+    font-size: 1.3em;
+    display: table;
+    margin: 0;
+    font-weight: 550;
+}
 .sentence {
     color: rgb(16, 16, 16);
     /* margin: 10px auto; */
@@ -64,8 +73,10 @@
     font-family: 'Fredoka', sans-serif;
     font-size: 1.3em;
     display: flex;
+    /* margin-right: 5px !important; */
     margin: 0;
     font-weight: 550;
+    max-width: 234px;
 }
 
 .slick-track{
