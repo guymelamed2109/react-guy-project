@@ -1,27 +1,39 @@
 .paragraph {
     /* margin: 5px; */
-    font-family: 'Fredoka', sans-serif;
     font-size: 1.2em !important;
     margin: 12px;
     font-weight: 800;
-    text-align: right;
+    justify-content: center !important;
+    display: flex;
+    flex-direction: column;
     direction: rtl;
     padding: 10px;
     position: absolute;
     color: black;
-    /* font-weight: bolder; */
     z-index: 1;
+}
+
+
+ p {
+    justify-content: center;
+    display: block !important;
+    font-family: 'Fredoka', sans-serif;
+    background-color: antiquewhite;
+    text-align: center;
+    width: fit-content;
     
 }
 
 .background-img {
     /* padding: 0 !important; */
+    justify-content: center !important;
     height: 800px;
     background-image: url("https://guymelamed2109.github.io/react-guy-project/images/gandr-collage.jpg");
     background-size: contain;
     opacity: 0.2;
     overflow: hidden;
     filter: brightness(90%);
+    display: flex;
 }
 /* 
 .homeContainer {
