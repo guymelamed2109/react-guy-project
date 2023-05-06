@@ -4,27 +4,27 @@ import '../Home/home.css'
 import {Carousel} from 'antd'
 
 export const Home = (props) => {
-	const months = props.months
-	const months_day_array =months.map((month) => month.days)
-	const photos_array_arrays = []
-	months_day_array.forEach((month) => {
-		month.forEach((day) => {
-			if (day.pic) {
-				photos_array_arrays.push(day.pic)
-			}
-		})
-	})
+// 	const months = props.months
+// 	const months_day_array =months.map((month) => month.days)
+// 	const photos_array_arrays = []
+// 	months_day_array.forEach((month) => {
+// 		month.forEach((day) => {
+// 			if (day.pic) {
+// 				photos_array_arrays.push(day.pic)
+// 			}
+// 		})
+// 	})
 
-	const photos_array = photos_array_arrays.flat(1)
-	photos_array.sort(() => Math.random() -0.5)
-console.log(photos_array);
+// 	const photos_array = photos_array_arrays.flat(1)
+// 	photos_array.sort(() => Math.random() -0.5)
+// console.log(photos_array);
 	
-	const imgObj = photos_array.map(pic => <img src={pic}/>)
+// 	const imgObj = photos_array.map(pic => <img src={pic}/>)
 	// console.log(imgObj);
 
 
 	return (
-		<div className="the-whole-page">
+		<div className="the-whole-page" style={{backgroundImage: "url('https://guymelamed2109.github.io/react-guy-project/images/gandr-collage.jpg')"}}>
 			<h1 className='paragraph'>
 				<p
 				>היי :)
@@ -39,9 +39,9 @@ console.log(photos_array);
 				 </p>
 
 			</h1>
-			<Carousel className="homeContainer" autoplay dots={false} > 
+			{/* <Carousel className="homeContainer" autoplay dots={false} > 
 					{imgObj}
-				</Carousel>
+				</Carousel> */}
 
 			</div>
 	);
