@@ -38,8 +38,13 @@
     /* padding: 0 !important; */
     /* justify-content: center !important;
     height: 800px; 
+<<<<<<< HEAD
     background-image: url("https://guymelamed2109.github.io/react-guy-project/images/phonto(3).PNG");
     background-size: contain; */
+=======
+    background-image: url("https://guymelamed2109.github.io/react-guy-project/images/phonto.PNG");
+    background-size: contain;
+>>>>>>> 6fce8682d6e08ad399b0964fa3cabed70fe3add4
     /* opacity: 0.2; */
     /* overflow: hidden;
     filter: brightness(90%);
