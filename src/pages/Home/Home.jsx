@@ -24,7 +24,8 @@ export const Home = (props) => {
 
 
 	return (
-		<div className="the-whole-page" style={{backgroundImage: "url('https://guymelamed2109.github.io/react-guy-project/images/gandr-collage.jpg')"}}>
+		<div className="the-whole-page"	>
+			{/* <img src='https://guymelamed2109.github.io/react-guy-project/images/gandr-collage.jpg' className='background-img'/>  */}
 			<h1 className='paragraph'>
 				<p
 				>היי :)
@@ -39,6 +40,8 @@ export const Home = (props) => {
 				 </p>
 
 			</h1>
+
+			<div className="background-img"></div>
 			{/* <Carousel className="homeContainer" autoplay dots={false} > 
 					{imgObj}
 				</Carousel> */}

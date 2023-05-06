@@ -2,11 +2,26 @@
     /* margin: 5px; */
     font-family: 'Fredoka', sans-serif;
     font-size: 1.2em !important;
-    margin: 0;
-    font-weight: 550;
+    margin: 12px;
+    font-weight: 800;
     text-align: right;
     direction: rtl;
     padding: 10px;
+    position: absolute;
+    color: black;
+    /* font-weight: bolder; */
+    z-index: 1;
+    
+}
+
+.background-img {
+    /* padding: 0 !important; */
+    height: 800px;
+    background-image: url("https://guymelamed2109.github.io/react-guy-project/images/gandr-collage.jpg");
+    background-size: contain;
+    opacity: 0.2;
+    overflow: hidden;
+    filter: brightness(90%);
 }
 /* 
 .homeContainer {
