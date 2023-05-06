@@ -10,12 +10,12 @@ export const Photos = (props) => {
 
 	const [month, year] = state.month.split(' ')
 	const sentence = state.days.sentence
-	const sentence_lenght = Object.keys(sentence).length
+	// const sentence_lenght = Object.keys(sentence).lengt-
 	
 	// const [sentence] = state.sentence
 	// console.log(sentence)
-	console.log(sentence)
-	console.log(Object.keys(sentence).length);
+	// console.log(sentence)
+	// console.log(Object.keys(sentence).length);
 	
 
 

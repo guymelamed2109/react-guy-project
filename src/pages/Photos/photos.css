@@ -37,8 +37,8 @@
     font-family: "Roboto", sans-serif;
     background-color: rgb(250, 244, 236);
     padding: 5px;
-    margin-right: 2px;
-    margin-left: 2px;
+    margin-right: 3px;
+    margin-left: 3px;
     
 }
 
@@ -55,7 +55,9 @@
     font-size: 1.3em;
     font-weight: 600;
     /* padding: 5px; */
+    margin-left: 5px !important;
     margin: 0;
+    min-width: 130px;
 
 }
 
@@ -76,10 +78,10 @@
     font-size: 1.3em;
     /* font-size: 4vw; */
     display: flex;
-    /* margin-right: 5px !important; */
+    margin-right: 5px !important;
     margin: 0;
     font-weight: 550;
-    max-width: 233px;
+    /* max-width: 232px; */
 }
 
 .slick-track{
