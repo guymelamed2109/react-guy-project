@@ -16,7 +16,7 @@ import { Photos } from './pages/Photos/Photos'
 		{day: 24}, {day: 25}, {day: 26}, {day: 27}, {day: 28}, {day: 29}, {day: 30, pic: ['https://guymelamed2109.github.io/react-guy-project/images/april-30.jpg'], sentence: "שבת ראשונה ביחד"}]}
 
 	const May = {month:"May 2022", days:[
-		{day: 1}, {day: 2}, {day: 3}, {day: 4}, {day: 5}, {day: 6, pic: ['https://guymelamed2109.github.io/react-guy-project/images/may-6.1.jpg', 'https://guymelamed2109.github.io/react-guy-project/images/may-6.2.jpg'], sentence: "יציאה ראשונה מחוץ לבסיס"}, {day: 7},
+		{day: 1}, {day: 2}, {day: 3}, {day: 4}, {day: 5}, {day: 6, pic: ['https://guymelamed2109.github.io/react-guy-project/images/may-6.1.jpg', 'https://guymelamed2109.github.io/react-guy-project/images/may-6.2.jpg'], sentence: "יציאה ראשונה מחוץ לבסיססס"}, {day: 7},
 		{day: 8}, {day: 9}, {day: 10}, {day: 11}, {day: 12, pic: ['https://guymelamed2109.github.io/react-guy-project/images/may-12.JPEG', 'https://guymelamed2109.github.io/react-guy-project/images/may-12.1.gif'], sentence: "יום טיול מהקורס"}, {day: 13}, {day: 14},
 		{day: 15}, {day: 16}, {day: 17}, {day: 18}, {day: 19}, {day: 20}, {day: 21},
 		{day: 22}, {day: 23}, {day: 24}, {day: 25}, {day: 26}, {day: 27}, {day: 28},
@@ -24,7 +24,7 @@ import { Photos } from './pages/Photos/Photos'
 
 	const June = {month:"June 2022", days:[
 		{}, {}, {}, {day: 1}, {day: 2}, {day: 3}, {day: 4},
-		{day: 5}, {day: 6}, {day: 7}, {day: 8}, {day: 9}, {day: 10, pic: ['https://guymelamed2109.github.io/react-guy-project/images/june-10.jpg'], sentence: "אס''ק"}, {day: 11,  pic: ['https://guymelamed2109.github.io/react-guy-project/images/june-11.1.JPEG', 'https://guymelamed2109.github.io/react-guy-project/images/june11.2.JPEG'], sentence: "המקום הקבוע שלנו בשעות טש"},
+		{day: 5}, {day: 6}, {day: 7}, {day: 8}, {day: 9}, {day: 10, pic: ['https://guymelamed2109.github.io/react-guy-project/images/june-10.jpg'],}, {day: 11,  pic: ['https://guymelamed2109.github.io/react-guy-project/images/june-11.1.JPEG', 'https://guymelamed2109.github.io/react-guy-project/images/june11.2.JPEG'], sentence: "המקום הקבוע שלנו בשעות טש"},
 		{day: 12}, {day: 13}, {day: 14}, {day: 15}, {day: 16}, {day: 17}, {day: 18},
 		{day: 19}, {day: 20}, {day: 21}, {day: 22}, {day: 23}, {day: 24}, {day: 25},
 		{day: 26}, {day: 27}, {day: 28}, {day: 29}, {day: 30}, {}, {}]}

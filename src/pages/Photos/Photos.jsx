@@ -6,17 +6,16 @@ export const Photos = (props) => {
 	const { state } = useLocation();
 	const pics = state.days.pic;
 
-	console.log(pics)
+	// console.log(pics)
 
 	const [month, year] = state.month.split(' ')
 	const sentence = state.days.sentence
+	const sentence_lenght = Object.keys(sentence).length
+	
 	// const [sentence] = state.sentence
 	// console.log(sentence)
-
-	let dot = "."
-	if (sentence) {
-		dot = dot
-	}
+	console.log(sentence)
+	console.log(Object.keys(sentence).length);
 	
 
 
@@ -42,7 +41,7 @@ export const Photos = (props) => {
 				{dot}
 			</h4> */}
 
-			<h3 className="sentence">
+			<h3 className="sentence" style={sentence_lenght > 22 ? {fontSize: "1.15em"} : {fontSize: "1.3em"}}>
 				{sentence}
 			</h3>
 
