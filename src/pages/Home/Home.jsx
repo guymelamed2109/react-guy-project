@@ -24,9 +24,10 @@ export const Home = (props) => {
 
 
 	return (
-		<div className="the-whole-page"	style={{ backgroundImage: `url("https://guymelamed2109.github.io/react-guy-project/images/Untitled-design.png")` } }>
+		<div className="the-whole-page"	>
+		{/* // style={{ backgroundImage: `url("https://guymelamed2109.github.io/react-guy-project/images/gandr-collage.jpg")`} }> */}
 			<div className='paragraph'>
-				<p>היי :)</p>
+				<p>היי</p>
 				<p>רציתי לסכם את כל החוויות שעברנו השנה וחשבתי שאין מקום טוב יותר לעשות את זה מהאינטרנט</p>
 				<p>לכן יצרתי עמוד בו מסוכם כל החוויות שצברנו השנה ביחד, אליו נוכל לגשת בכל זמן ומכל מקום</p>
 				<p>הייתה לנו שנה מטורפת, מצפה כבר לשנים הבאות!</p>
@@ -34,7 +35,7 @@ export const Home = (props) => {
 
 			</div>
 
-			{/* <div className="background-img"></div> */}
+			<div className="background-img"></div>
 			{/* <Carousel className="homeContainer" autoplay dots={false} > 
 					{imgObj}
 				</Carousel> */}

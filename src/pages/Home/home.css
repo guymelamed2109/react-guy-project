@@ -1,7 +1,8 @@
 .paragraph {
     /* margin: 5px; */
     font-size: 1.2em !important;
-    margin: 12px;
+    margin-right: 20px !important;
+    /* margin: 12px; */
     font-weight: 800;
     justify-content: center !important;
     display: flex;
@@ -11,22 +12,17 @@
     position: absolute !important;
     color: black;
     z-index: 1 !important;
+    /* width: 100%; */
 }
 
 .the-whole-page {
-    /* padding: 0 !important; */
-    justify-content: center !important;
-    height: 800px; 
-    /* background-image: url("https://guymelamed2109.github.io/react-guy-project/images/phonto(3).PNG"); */
-    background-size: contain;
-    /* opacity: 0.2; */
-    overflow: hidden;
-    /* filter: brightness(90%); */
-    display: flex;
+    width: 383px;
+   
 }
+
  p {
-    justify-content: center;
-    display: block !important;
+    justify-content: center !important;
+    /* display: block !important; */
     font-family: 'Fredoka', sans-serif;
     background-color: white;
     text-align: center;
@@ -34,17 +30,17 @@
     
 }
 
-/* .background-img { */
-    /* padding: 0 !important; */
-    /* justify-content: center !important;
-    height: 800px; 
-    background-image: url("https://guymelamed2109.github.io/react-guy-project/images/phonto.PNG");
+.background-img {
+    display: flex;
+    justify-content: center !important;
+    height: 800px;
+    background-image: url("https://guymelamed2109.github.io/react-guy-project/images/gandr-collage.jpg");
     background-size: contain;
-    /* opacity: 0.2; */
-    /* overflow: hidden;
-    filter: brightness(90%);
-    display: flex; */
-/* } */
+    opacity: 0.2;
+    width: 100%;
+    
+
+}
 /* 
 .homeContainer {
     height: 280px !important;
