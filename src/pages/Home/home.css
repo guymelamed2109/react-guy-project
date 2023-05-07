@@ -5,8 +5,8 @@
     display: flex;
     flex-direction: column;
     direction: rtl;
-    padding-bottom: 2px !important;
-    padding: 10px;
+    padding-bottom: 3px !important;
+    padding: 15px;
     /* position: absolute !important; */
     color: black;
     /* z-index: 1 !important; */
